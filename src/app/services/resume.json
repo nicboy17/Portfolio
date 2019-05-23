@@ -1,0 +1,83 @@
+{
+    "name": "Nick Major",
+    "phone": "(519)535-0630",
+    "email": "nickmajor78@gmail.com",
+    "github": "nicboy17",
+    "github_link": "https://github.com/nicboy17",
+    "linkedin": "https://linkedin.com/in/nmajor17",
+    "education": "Bachelor of Computer Engineering, University of Guelph (2018).",
+    "hobbies": [
+        "Hockey",
+        "Fishing",
+        "Wood Working"
+    ],
+    "profile": "As a highly capable and self-starting professional, I apply strong organization skills while demonstrating initiative and a solid work ethic.",
+    "projects": [
+        {
+            "title": "IoT Real Time System Project - Design 4",
+            "year": "2018",
+            "subtitle": "University of Guelph",
+            "description": [
+                "Demonstrated strong project management skills and team collaboration while using Agile to develop a working prototype (IoT sensory network) for inventory management in assembly manufacturing.",
+                "Implemented 3-layer architecture, splitting problems into three main components, including sensory network, backend (server), and frontend (website).",
+                "Used observable pattern (Rx.js) with Angular.js to create frontend, which kept over architecture event-based.",
+                "Secured Node.js backend service with JSON web tokens and HTTPS.",
+                "Used MongoDB database with Mongoose to store user and sensor data, which provided schemas for structuring data and implement type casting, validation, and query building.",
+                "Created scalable wireless sensor network to communicate with backend in real time to trigger component replenishment, avoid stockouts, optimize inventory levels, and forecast future usage."
+            ]
+        },
+        {
+            "title": "IoT Hydroponics System Project - Wireless Sensor Networks",
+            "year": "2017",
+            "subtitle": "University of Guelph",
+            "description": [
+                "Found a solution to remotely monitor and manage miniature hydroponics farm, while under a three-week time constraint.",
+                "Used Raspberry Pi as web server to control Arduino with temperature, humidity, and relay sensors.",
+                "Used various communication protocols, including MQTT, Websockets, and HTTP (REST API)."
+            ]
+        },
+        {
+            "title": "Caremunity Android App Backend Project - System Analysis and Design in Applications",
+            "year": "2017",
+            "subtitle": "University of Guelph",
+            "description": [
+                "Worked on a team of four to design and create a backend service for Android app to help people with FASD take medications.",
+                "The project followed a waterfall design process, completing each step-in turn and planning and documenting all progress.",
+                "Created backend service using Node.js, Postman, and MySQL to fulfill requirements.",
+                "Worked with clients through product development with paper prototyping and wire-framing."
+            ]
+        },
+        {
+            "title": "iCal Database Project - Software Development and Integration",
+            "year": "2016",
+            "subtitle": "University of Guelph",
+            "description": [
+                "Demonstrated sound time management skills while working on a four-stage project (parser utility library, command line extension, Python GUI, MySQL database).",
+                "Overcame barriers from tight timelines, debugging, fixing bugs in lengthy programs, and learning Python and MySQL",
+                "Worked with various features, including I/O, C to Python extensions, and server functionality.",
+                "Developed specification reading skills by breaking down and implementing project requirements."
+            ]
+        }
+    ],
+    "work": [
+        {
+            "title": "Website Designer (Self-Employed)",
+            "year": "2017",
+            "subtitle": "Woodstock Summer Company, Woodstock",
+            "description": [
+                "Developed an ecommerce website using WordPress for a hydraulics company, while meeting with owners to discuss work scope, progress, and requirements."
+            ]
+        },
+        {
+            "title": "Co-op Position",
+            "year": "2016",
+            "subtitle": "Pencom Canada, Cambridge",
+            "description": [
+                "Worked with quality assurance (QA) department programming a Keyence machine (image dimension measurement system).",
+                "Improved inspection process by designing a Java based program to aggregate parts specifications (drawings and Excel) and Keyence programs. Additionally, implemented a partial search by using part information from the main system for easier location.",
+                "Designed fixtures for scanning in parts and a jig for in-house assembly product using SolidWorks. Measured parts and made sketches.",
+                "Created instructions, wrote manual, and trained warehouse staff on Keyence machine and Java program."
+            ]
+        }
+    ]
+}

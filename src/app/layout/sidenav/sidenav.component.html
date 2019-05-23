@@ -1,16 +1,18 @@
-<nav class="sidenav">
-    <section class="sidenav-content">
-        <a class="nav-link" routerLink="/summary" routerLinkActive="active">
-            Summary
-        </a>
-        <a class="nav-link" routerLink="/resume" routerLinkActive="active">
-            Resume
-        </a>
-        <a class="nav-link" routerLink="/previous-work" routerLinkActive="active">
-            Previous Work
-        </a>
-        <a class="nav-link" routerLink="/previous-employment" routerLinkActive="active">
-            Previous Employment
-        </a>
-    </section>
-</nav>
+<ng-container>
+    <nav class="sidenav" [clr-nav-level]="1">
+        <section class="sidenav-content">
+            <a class="nav-link" routerLink="/summary" routerLinkActive="active">
+                <span>Summary</span>
+            </a>
+            <a class="nav-link" routerLink="/resume" routerLinkActive="active">
+                <span>Resume</span>
+            </a>
+            <a class="nav-link" routerLink="/previous-work" routerLinkActive="active">
+                <span>Previous Work</span>
+            </a>
+            <a class="nav-link" routerLink="/previous-employment" routerLinkActive="active">
+                <span>Previous Employment</span>
+            </a>
+        </section>
+    </nav>
+</ng-container>

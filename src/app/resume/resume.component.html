@@ -1,53 +1,56 @@
-<div class="profile">
-    <h3>
-        Profile
-    </h3>
-    <p>
-        As a highly capable and self-starting professional, I apply strong organization skills while demonstrating
-        initiative and a solid work ethic.
-    </p>
-</div>
+<div class="resume">
+    <div class="profile">
+        <h3>Profile</h3>
+        <p>{{user.profile}}</p>
+    </div>
 
-<div class="education">
-    <h3>
-        Education
-    </h3>
-    <p>
-        Bachelor of Computer Engineering, University of Guelph (2018).
-    </p>
-</div>
+    <div class="education">
+        <h3>Education</h3>
+        <p>{{user.education}}</p>
+    </div>
 
-<div class="projects">
-    <h3>
-        Projects
-    </h3>
-    <ul style="list-style: none;">
-        <li>
-            <h6>IoT REAL TIME SYSTEM PROJECT; DESIGN 4</h6>
-            <p class="p2">UNIVERSITY OF GUELPH, GUELPH</p>
-            <ul>
-                <li>
-                    Demonstrated strong project management skills and team collaboration while using Agile to develop a
-                    working prototype (IoT sensory network) for inventory management in assembly manufacturing.
-                </li>
-                <li>
-                    Implemented 3-layer architecture, splitting problems into three main components, including sensory
-                    network, backend (server), and frontend (website).
-                </li>
-                <li>
-                    Used observable pattern (Rx.js) with Angular.js to create frontend, which kept over architecture
-                    event-based.
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
+    <div class="projects">
+        <h3>Projects</h3>
+        <ul style="list-style: none;">
+            <li *ngFor="let project of user.projects">
+                <h6>{{project.title}}</h6>
+                <p class="p2">{{project.subtitle}}</p>
+                <ul>
+                    <li *ngFor="let description of project.description">
+                        {{description}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-<div class="work">
-    <h3>
-        Work Experience
-    </h3>
-    <p>
+    <div class="work">
+        <h3>
+            Work Experience
+        </h3>
+        <ul style="list-style: none;">
+            <li *ngFor="let work of user.work">
+                <h6>{{work.title}}</h6>
+                <p class="p2">{{work.subtitle}}</p>
+                <ul>
+                    <li *ngFor="let description of work.description">
+                        {{description}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    </p>
+    <div class="hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+            <li *ngFor="let hobby of user.hobbies">
+                {{hobby}}
+            </li>
+        </ul>
+    </div>
+
+    <div class="references">
+        <h6>References will validate work ethic and results</h6>
+    </div>
 </div>

@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeService } from '../services/resume.service';
+import { User } from '../services/interfaces';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.scss']
+    selector: 'app-resume',
+    templateUrl: './resume.component.html',
+    styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent implements OnInit {
+    user: User;
 
-  constructor() { }
+    constructor(private resume: ResumeService) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.user = this.resume.getResume();
+    }
 
 }

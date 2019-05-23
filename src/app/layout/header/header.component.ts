@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { template } from '@angular/core/src/render3';
+import { ResumeService } from 'src/app/services/resume.service';
+import { User } from 'src/app/services/interfaces';
 
 @Component({
     // tslint:disable-next-line:component-selector
@@ -11,29 +12,27 @@ import { template } from '@angular/core/src/render3';
         <div class="contact">
             <ul>
                 <li>
-                    <clr-icon shape="phone-handset"></clr-icon> <span> {{phoneNumber}}</span>
+                    <clr-icon shape="phone-handset"></clr-icon> <span> {{user.phone}}</span>
                 </li>
                 <li>
-                    <clr-icon shape="envelope"></clr-icon> <span> {{email}}</span>
+                    <a href="mailto:{{user.email}}"><clr-icon shape="envelope"></clr-icon> <span> {{user.email}}</span></a>
                 </li>
                 <li>
-                    <img class="clr-icon flexible" src="assets/linkedin.png"> <span> linkedin </span>
+                    <a href="/linkedin"><img class="clr-icon flexible" src="assets/linkedin.png"> <span> linkedin</span></a>
                 </li>
                 <li>
-                    <img class="clr-icon flexible" src="assets/github.png"><span> {{github}}</span>
+                    <a href="/github"><img class="clr-icon flexible" src="assets/github.png"><span> {{user.github}}</span></a>
                 </li>
             </ul>
         </div>
     <div>`
 })
 export class HeaderComponent implements OnInit {
-    phoneNumber = '(519)535-0630';
-    email = 'nickmajor78@gmail.com';
-    github = 'nicboy17';
+    user: User;
 
-    constructor() { }
+    constructor(private resume: ResumeService) { }
 
     ngOnInit() {
+        this.user = this.resume.getResume();
     }
-
 }

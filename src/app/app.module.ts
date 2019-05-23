@@ -12,28 +12,29 @@ import { SummaryComponent } from './summary/summary.component';
 import { ResumeComponent } from './resume/resume.component';
 import { WorkComponent } from './work/work.component';
 import { EmploymentComponent } from './employment/employment.component';
+import { RedirectGuard } from './services/redirectguard';
 
 
 @NgModule({
-   declarations: [
-      AppComponent,
-      HeaderComponent,
-      SidenavComponent,
-      SummaryComponent,
-      ResumeComponent,
-      WorkComponent,
-      EmploymentComponent
-   ],
-   imports: [
-      BrowserModule,
-      AppRoutingModule,
-      ClarityModule,
-      RouterModule,
-      BrowserAnimationsModule
-   ],
-   providers: [],
-   bootstrap: [
-      AppComponent
-   ]
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        SidenavComponent,
+        SummaryComponent,
+        ResumeComponent,
+        WorkComponent,
+        EmploymentComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ClarityModule,
+        RouterModule,
+        BrowserAnimationsModule
+    ],
+    providers: [RedirectGuard],
+    bootstrap: [
+        AppComponent
+    ]
 })
 export class AppModule { }

@@ -1,3 +1,8 @@
+$small: 600px;
+$medium: 960px;
+$large: 1280px;
+$xlarge: 1920px;
+
 .header-2 {
     background-color: #798893;
     padding: 1.5rem;
@@ -10,14 +15,15 @@
         color: #F2F2F2;
         text-align: center;
         font-size: 3.5rem;
+        @media (max-width: $small) {
+            font-size: 1.5rem;
+        }
     }
 
     .contact {
         display: block;
         padding-top: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        text-align: center;
 
         ul {
             display: inline-block;
@@ -26,7 +32,8 @@
 
             li {
                 display: inline-block;
-                margin-left: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
 
                 clr-icon, span{
                     color: #F2F2F2;
