@@ -14,7 +14,6 @@ import { WorkComponent } from './work/work.component';
 import { EmploymentComponent } from './employment/employment.component';
 import { RedirectGuard } from './services/redirectguard';
 
-
 @NgModule({
     declarations: [
         AppComponent,
@@ -30,7 +29,7 @@ import { RedirectGuard } from './services/redirectguard';
         AppRoutingModule,
         ClarityModule,
         RouterModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
     ],
     providers: [RedirectGuard],
     bootstrap: [
