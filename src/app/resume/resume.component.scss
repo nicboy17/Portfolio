@@ -1,6 +1,7 @@
 .resume {
     padding: 1.5rem;
     padding-top: 0rem;
+    margin-left: 4rem;
 }
 
 p {
@@ -11,13 +12,22 @@ p {
     margin: 0;
 }
 
-h6 {
-    margin-top: 0.5rem;
+.title {
+    h6 {
+        width: 50%;
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+    
+    #year {
+        text-align: right;
+        
+    }
 }
 
-.projects {
+.projects, .work {
     ul{
-        
+        padding: 0.5rem 0 0.5rem 0;
     }
 }
 

@@ -13,7 +13,10 @@
         <h3>Projects</h3>
         <ul style="list-style: none;">
             <li *ngFor="let project of user.projects">
-                <h6>{{project.title}}</h6>
+                <div class="title">
+                    <h6>{{project.title}}</h6>
+                    <h6 id="year">{{project.year}}</h6>
+                </div>
                 <p class="p2">{{project.subtitle}}</p>
                 <ul>
                     <li *ngFor="let description of project.description">
@@ -30,7 +33,10 @@
         </h3>
         <ul style="list-style: none;">
             <li *ngFor="let work of user.work">
-                <h6>{{work.title}}</h6>
+                <div class="title">
+                    <h6>{{work.title}}</h6>
+                    <h6 id="year">{{work.year}}</h6>
+                </div>
                 <p class="p2">{{work.subtitle}}</p>
                 <ul>
                     <li *ngFor="let description of work.description">
