@@ -29,7 +29,8 @@
                         "styles": [
                             "node_modules/@clr/icons/clr-icons.min.css",
                             "node_modules/@clr/ui/clr-ui.min.css",
-                            "src/styles.scss"
+                            "src/styles.scss",
+                            "node_modules/font-awesome/css/font-awesome.css"
                         ],
                         "scripts": [
                             "node_modules/@webcomponents/custom-elements/custom-elements.min.js",
@@ -88,7 +89,8 @@
                         "tsConfig": "src/tsconfig.spec.json",
                         "karmaConfig": "src/karma.conf.js",
                         "styles": [
-                            "src/styles.scss"
+                            "src/styles.scss",
+                            "node_modules/font-awesome/css/font-awesome.css"
                         ],
                         "scripts": [],
                         "assets": [
