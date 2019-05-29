@@ -1,15 +1,31 @@
 <div class="clr-row clr-justify-content-center">
     <div class="clr-col-8">
-        <div class="card">
-            <div class="card-img">
-                <!-- <img src="..."> -->
-            </div>
+        <div class="card" *ngFor="let project of projects">
             <div class="card-block">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, aut.
-                    Nihil nemo, necessitatibus earum.
-                </p>
+                <h4 class="card-title">{{project.title}}</h4>
+                <h4 id="year" class="card-title">{{project.year}}</h4>
+                <h6 style="margin-bottom: 0.75rem;">{{project.subtitle}}</h6>
+                <div class="card-text">
+                    <ng-container *ngIf="project.overview">
+                        <h6>Overview:</h6>
+                        <ul>
+                            <li *ngFor="let overview of project.overview">
+                                {{overview}}
+                            </li>
+                        </ul>
+                    </ng-container>
+
+                    <ng-container *ngIf="project.responsibilities">
+                        <h6>Responsibilities:</h6>
+                        <ul>
+                            <li *ngFor="let response of project.responsibilities">
+                                {{response}}
+                            </li>
+                        </ul>
+                    </ng-container>
+                </div>
+                <h6>Pictures:</h6>
+                <ngx-gallery [options]="galleryOptions" [images]="project.images"></ngx-gallery>
             </div>
         </div>
     </div>

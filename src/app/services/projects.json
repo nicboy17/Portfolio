@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Cap Stone Project",
+        "subtitle": "Design 4",
+        "year": "2018",
+        "overview": [
+            "Developed a prototype wireless sensor network to manage inventory management",
+            "Scalable wireless sensor network using radio and MQTT to communicate with server",
+            "Near real time communication with MQTT and web sockets"
+        ],
+        "responsibilities": [
+            "Sheet metal design with Solid Works",
+            "Sensor Design (Arduino, Digikey, etc)",
+            "API/Database Design",
+            "Frontend Development in Angular.js"
+        ],
+        "images": [
+            {
+                "small": "assets/school/design4.png",
+                "medium": "assets/school/design4.png",
+                "big": "assets/school/design4.png"
+            },
+            {
+                "small": "assets/school/scale.png",
+                "medium": "assets/school/scale.png",
+                "big": "assets/school/scale.png"
+            }
+        ]
+    },
+    {
+        "title": "Analog To Digital Converter (ADC)",
+        "subtitle": "Micro and Nano Scale Electronics",
+        "year": "2018",
+        "overview": [
+            "Successive Approximation Register (Binary Search Tree Algorithm)",
+            "Components: Sample and Hold, Comparator, OP-Amp, SAR, and DAC",
+            "9Mhz operating frequency"
+        ],
+        "images": [
+            {
+                "small": "assets/school/ADC.png",
+                "medium": "assets/school/ADC.png",
+                "big": "assets/school/ADC.png"
+            }
+        ]
+    },
+    {
+        "title": "RFID based Segregation System in Material Recovery Facilities for Beverage Cartons",
+        "subtitle": "Design 3",
+        "year": "2018",
+        "overview": [
+            "Theoretical project to reduce the residual waste at the Guelph recovery facility by designing an autonomous system that would complement the existing processes",
+            "Project involved extensive Research, Design, and Technical/Cost Analysis",
+            "Final Proposed solution was a real time system with an RFID CNC pickup machine"
+        ],
+        "images": [
+            {
+                "small": "assets/school/design3.png",
+                "medium": "assets/school/design3.png",
+                "big": "assets/school/design3.png"
+            }
+        ]
+    },
+    {
+        "title": "Remote Hydroponics Project",
+        "subtitle": "Wireless Sensor Networks",
+        "year": "2017",
+        "overview": [
+            "Design and Developed a system with an arduino and raspberry pi to remotely monitor and manage a miniature hydroponics farm",
+            "Measured temperature and ambient humidity, set up a camera to take photos to monitor plant growth",
+            "Used relays to control the pump and lights for the system",
+            "Raspberry Pi was used as a web server with MEAN stack",
+            "Arduino was responsible with sensors and relays",
+            "Communication Used: HTTP, Websockets, MQTT, Wifi"
+        ],
+        "images": [
+            {
+                "small": "assets/school/hydroponics.png",
+                "medium": "assets/school/hydroponics.png",
+                "big": "assets/school/hydroponics.png"
+            },
+            {
+                "small": "assets/school/hydroponics-diagram.png",
+                "medium": "assets/school/hydroponics-diagram.png",
+                "big": "assets/school/hydroponics-diagram.png"
+            }
+        ]
+    },
+    {
+        "title": "MIPS Processor (VHDL)",
+        "subtitle": "Computer Organization and Design",
+        "year": "2017",
+        "overview": [
+            "16-bit Mips processor with 8 switches, 7 segmentment display, and 14 instructions",
+            "Successfully implemented fibonacci variant instruction in assembly and MIPS"
+        ],
+        "images": [
+            {
+                "small": "assets/school/processor.png",
+                "medium": "assets/school/processor.png",
+                "big": "assets/school/processor.png"
+            }
+        ]
+    }
+]

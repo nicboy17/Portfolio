@@ -1,0 +1,32 @@
+.card {
+    .card-block {
+        .card-title {
+            width: 75%;
+            margin-top: 0.5rem;
+            display: inline-block;
+            margin-bottom: 0.25rem;
+        }
+        
+        #year {
+            width: 25%;
+            text-align: right;
+        }
+
+        h6 {
+            margin: 0;
+        }
+    }
+
+    ul{
+        padding: 0.5rem 0 0.5rem 0;
+    }
+}
+
+ngx-gallery /deep/ .ngx-gallery-arrow {
+    color: black;
+}
+
+ngx-gallery {
+    display: block;
+    margin: 0 auto;
+}

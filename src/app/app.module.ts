@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ClarityModule } from '@clr/angular';
+import 'hammerjs';
+import { NgxGalleryModule } from 'ngx-gallery';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './layout/header/header.component';
 import { SidenavComponent } from './layout/sidenav/sidenav.component';
@@ -28,6 +30,7 @@ import { RedirectGuard } from './services/redirectguard';
         BrowserModule,
         AppRoutingModule,
         ClarityModule,
+        NgxGalleryModule,
         RouterModule,
         BrowserAnimationsModule,
     ],
