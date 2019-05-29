@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Website Designer (Self-Employed)",
+        "subtitle": "Woodstock Summer Company, Woodstock",
+        "year": "2017",
+        "responsibilities": [
+            "Design and develop an ecommerce hydraulics website",
+            "Design Proposal",
+            "Bi-weekly updates and monthly demos",
+            "Logo Design, product entry, and image scrapping"
+        ],
+        "learned": [
+            "Wordpress/Woocommerce",
+            "PHP, HTML, SCSS, JS, JQuery",
+            "Work with clients/customers"
+        ],
+        "images": [
+            {
+                "small": "assets/hydraulics/home.png",
+                "medium": "assets/hydraulics/home.png",
+                "big": "assets/hydraulics/home.png"
+            },
+            {
+                "small": "assets/hydraulics/fittings.png",
+                "medium": "assets/hydraulics/fittings.png",
+                "big": "assets/hydraulics/fittings.png"
+            },
+            {
+                "small": "assets/hydraulics/adapters.png",
+                "medium": "assets/hydraulics/adapters.png",
+                "big": "assets/hydraulics/adapters.png"
+            },
+            {
+                "small": "assets/hydraulics/hose-detail.png",
+                "medium": "assets/hydraulics/hose-detail.png",
+                "big": "assets/hydraulics/hose-detail.png"
+            },
+            {
+                "small": "assets/hydraulics/hose-buy.png",
+                "medium": "assets/hydraulics/hose-buy.png",
+                "big": "assets/hydraulics/hose-buy.png"
+            }
+        ]
+    },
+    {
+        "title": "Co-op Position",
+        "subtitle": "Pencom Canada, Cambridge",
+        "year": "2016",
+        "responsibilities": [
+            "Program Image Dimension Measurement System (Autocad data entry)",
+            "Scripts to automate tasks in excel",
+            "Solidworks (Design) for making jigs for assembly",
+            "Wrote Java based program to automate parts of data entry in QA (receiving)"
+        ],
+        "learned": [
+            "Importance of automation",
+            "Further developed Java experience"
+        ],
+        "images": [
+            {
+                "small": "assets/pencom/machine.png",
+                "medium": "assets/pencom/machine.png",
+                "big": "assets/pencom/machine.png"
+            },
+            {
+                "small": "assets/pencom/keyence.jpg",
+                "medium": "assets/pencom/keyence.jpg",
+                "big": "assets/pencom/keyence.jpg"
+            },
+            {
+                "small": "assets/pencom/assembly.png",
+                "medium": "assets/pencom/assembly.png",
+                "big": "assets/pencom/assembly.png"
+            },
+            {
+                "small": "assets/pencom/Long Tray.jpg",
+                "medium": "assets/pencom/Long Tray.jpg",
+                "big": "assets/pencom/Long Tray.jpg"
+            },
+            {
+                "small": "assets/pencom/Short Tray.jpg",
+                "medium": "assets/pencom/Short Tray.jpg",
+                "big": "assets/pencom/Short Tray.jpg"
+            }
+        ]
+    }
+]

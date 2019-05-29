@@ -1,32 +1,26 @@
 <div class="clr-row clr-justify-content-center">
     <div class="clr-col-8">
-        <div class="card">
+        <div class="card" *ngFor="let employ of employment">
             <div class="card-block">
-                <h4 class="card-title">Pencom Canada Co-op (2016)</h4>
-                <div class="card-img">
-                    <img src="assets/pencom/keyence.jpg">
+                <h4 class="card-title">{{employ.title}}</h4>
+                <h4 id="year" class="card-title">{{employ.year}}</h4>
+                <h6 style="margin-bottom: 0.75rem;">{{employ.subtitle}}</h6>
+                <div class="card-text">
+                    <h6>Responsibilities:</h6>
+                    <ul>
+                        <li *ngFor="let response of employ.responsibilities">
+                            {{response}}
+                        </li>
+                    </ul>
+                    <h6>Learned:</h6>
+                    <ul>
+                        <li *ngFor="let learn of employ.learned">
+                            {{learn}}
+                        </li>
+                    </ul>
                 </div>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, aut.
-                    Nihil nemo, necessitatibus earum.
-                </p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-block">
-                <h4 class="card-title">Pencom Canada Co-op (2016)</h4>
-                <div class="card-img hydraulics">
-                    <img src="assets/hydraulics/home.png">
-                    <img src="assets/hydraulics/fittings.png">
-                    <img src="assets/hydraulics/adapters.png">
-                    <img src="assets/hydraulics/hose-detail.png">
-                    <img src="assets/hydraulics/hose-buy.png">
-                </div>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, aut.
-                    Nihil nemo, necessitatibus earum.
-                </p>
+                <h6>Pictures:</h6>
+                <ngx-gallery [options]="galleryOptions" [images]="employ.images"></ngx-gallery>
             </div>
         </div>
     </div>
