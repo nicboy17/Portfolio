@@ -87,6 +87,38 @@
         ]
     },
     {
+        "title": "Caremunity Android App Backend Project",
+        "subtitle": "System Analysis and Design in Applications",
+        "year": "2017",
+        "overview": [
+            "Worked on a team of four to design and create a backend service for Android app to help people with FASD take medications.",
+            "Created backend service using Node.js, Postman, and MySQL to fulfill requirements.",
+            "Worked with clients through product development with paper prototyping and wire-framing."
+        ],
+        "images": [
+            {
+                "small": "assets/school/caremunity.png",
+                "medium": "assets/school/caremunity.png",
+                "big": "assets/school/caremunity.png"
+            },
+            {
+                "small": "assets/school/caremunity-class.png",
+                "medium": "assets/school/caremunity-class.png",
+                "big": "assets/school/caremunity-class.png"
+            },
+            {
+                "small": "assets/school/caremunity-db.png",
+                "medium": "assets/school/caremunity-db.png",
+                "big": "assets/school/caremunity-db.png"
+            },
+            {
+                "small": "assets/school/caremunity-sequence.png",
+                "medium": "assets/school/caremunity-sequence.png",
+                "big": "assets/school/caremunity-sequence.png"
+            }
+        ]
+    },
+    {
         "title": "MIPS Processor (VHDL)",
         "subtitle": "Computer Organization and Design",
         "year": "2017",
@@ -100,6 +132,17 @@
                 "medium": "assets/school/processor.png",
                 "big": "assets/school/processor.png"
             }
+        ]
+    },
+    {
+        "title": "iCal Database Project",
+        "subtitle": "Software System Development and Integration",
+        "year": "2016",
+        "overview": [
+            "Demonstrated sound time management skills while working on a four-stage project (parser utility library, command line extension, Python GUI, MySQL database).",
+            "Overcame barriers from tight timelines, debugging, fixing bugs in lengthy programs, and learning Python and MySQL",
+            "Worked with various features, including I/O, C to Python extensions, and server functionality",
+            "Used Tkinter to create Python GUI."
         ]
     }
 ]

@@ -24,8 +24,10 @@
                         </ul>
                     </ng-container>
                 </div>
-                <h6>Pictures:</h6>
-                <ngx-gallery [options]="galleryOptions" [images]="project.images"></ngx-gallery>
+                <ng-container *ngIf="project.images">
+                    <h6>Pictures:</h6>
+                    <ngx-gallery [options]="galleryOptions" [images]="project.images"></ngx-gallery>
+                </ng-container>
             </div>
         </div>
     </div>
