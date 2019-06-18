@@ -15,6 +15,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { WorkComponent } from './work/work.component';
 import { EmploymentComponent } from './employment/employment.component';
 import { RedirectGuard } from './services/redirectguard';
+import { TableofcontentsComponent } from './layout/tableofcontents/tableofcontents.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { RedirectGuard } from './services/redirectguard';
         SummaryComponent,
         ResumeComponent,
         WorkComponent,
-        EmploymentComponent
+        EmploymentComponent,
+        TableofcontentsComponent
     ],
     imports: [
         BrowserModule,

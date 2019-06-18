@@ -14,7 +14,8 @@
     "profile": "As a highly capable and self-starting professional, I apply strong organization skills while demonstrating initiative and a solid work ethic.",
     "projects": [
         {
-            "title": "IoT Real Time System Project - Design 4",
+            "title": "IoT Real Time System Project",
+            "course": "Design 4",
             "year": "2018",
             "subtitle": "University of Guelph",
             "description": [
@@ -27,7 +28,8 @@
             ]
         },
         {
-            "title": "IoT Hydroponics System Project - Wireless Sensor Networks",
+            "title": "IoT Hydroponics System Project",
+            "course": "Wireless Sensor Networks",
             "year": "2017",
             "subtitle": "University of Guelph",
             "description": [
@@ -37,7 +39,8 @@
             ]
         },
         {
-            "title": "Caremunity Android App Backend Project - System Analysis and Design in Applications",
+            "title": "Caremunity Android App Backend Project",
+            "course": "System Analysis and Design in Applications",
             "year": "2017",
             "subtitle": "University of Guelph",
             "description": [
@@ -48,7 +51,8 @@
             ]
         },
         {
-            "title": "iCal Database Project - Software Development and Integration",
+            "title": "iCal Database Project",
+            "course": "Software Development and Integration",
             "year": "2016",
             "subtitle": "University of Guelph",
             "description": [

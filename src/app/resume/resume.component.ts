@@ -9,11 +9,19 @@ import { User } from '../services/interfaces';
 })
 export class ResumeComponent implements OnInit {
     user: User;
+    links: any;
 
     constructor(private resume: ResumeService) { }
 
     ngOnInit() {
         this.user = this.resume.getResume();
+        this.links = [
+            {title: 'Profile'},
+            {title: 'Education'},
+            {title: 'Projects', data: this.user.projects},
+            {title: 'Work Experience', data: this.user.work},
+            {title: 'Hobbies' }
+        ];
     }
 
 }

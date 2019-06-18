@@ -1,27 +1,32 @@
-<div class="clr-row clr-justify-content-center">
-    <div class="clr-col-8">
-        <div class="card" *ngFor="let employ of employment">
-            <div class="card-block">
-                <h4 class="card-title">{{employ.title}}</h4>
-                <h4 id="year" class="card-title">{{employ.year}}</h4>
-                <h6 style="margin-bottom: 0.75rem;">{{employ.subtitle}}</h6>
-                <div class="card-text">
-                    <h6>Responsibilities:</h6>
-                    <ul>
-                        <li *ngFor="let response of employ.responsibilities">
-                            {{response}}
-                        </li>
-                    </ul>
-                    <h6>Learned:</h6>
-                    <ul>
-                        <li *ngFor="let learn of employ.learned">
-                            {{learn}}
-                        </li>
-                    </ul>
+<div class="employment">
+    <div class="content">
+        <div class="clr-row clr-justify-content-center">
+            <div class="clr-col-10">
+                <div class="card" *ngFor="let employ of employment">
+                    <div class="card-block">
+                        <h4 class="card-title">{{employ.title}}</h4>
+                        <h4 id="year" class="card-title">{{employ.year}}</h4>
+                        <h6 style="margin-bottom: 0.75rem;">{{employ.subtitle}}</h6>
+                        <div class="card-text">
+                            <h6>Responsibilities:</h6>
+                            <ul>
+                                <li *ngFor="let response of employ.responsibilities">
+                                    {{response}}
+                                </li>
+                            </ul>
+                            <h6>Learned:</h6>
+                            <ul>
+                                <li *ngFor="let learn of employ.learned">
+                                    {{learn}}
+                                </li>
+                            </ul>
+                        </div>
+                        <h6>Pictures:</h6>
+                        <ngx-gallery [options]="galleryOptions" [images]="employ.images"></ngx-gallery>
+                    </div>
                 </div>
-                <h6>Pictures:</h6>
-                <ngx-gallery [options]="galleryOptions" [images]="employ.images"></ngx-gallery>
             </div>
         </div>
     </div>
+    <app-tableofcontents [links]="employment"></app-tableofcontents>
 </div>

@@ -1,62 +1,63 @@
 <div class="resume">
-    <div class="profile">
-        <h3>Profile</h3>
-        <p>{{user.profile}}</p>
-    </div>
+    <div class="content">
+        <div class="profile">
+            <h3>Profile</h3>
+            <p>{{user.profile}}</p>
+        </div>
 
-    <div class="education">
-        <h3>Education</h3>
-        <p>{{user.education}}</p>
-    </div>
+        <div class="education">
+            <h3>Education</h3>
+            <p>{{user.education}}</p>
+        </div>
 
-    <div class="projects">
-        <h3>Projects</h3>
-        <ul style="list-style: none;">
-            <li *ngFor="let project of user.projects">
-                <div class="title">
-                    <h6>{{project.title}}</h6>
-                    <h6 id="year">{{project.year}}</h6>
-                </div>
-                <p class="p2">{{project.subtitle}}</p>
-                <ul>
-                    <li *ngFor="let description of project.description">
-                        {{description}}
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <div class="projects">
+            <h3>Projects</h3>
+            <ul style="list-style: none;">
+                <li *ngFor="let project of user.projects">
+                    <div class="title">
+                        <h6 id="title">{{project.title}} - {{project.course}}</h6>
+                        <h6 id="year">{{project.year}}</h6>
+                    </div>
+                    <p class="p2">{{project.subtitle}}</p>
+                    <ul>
+                        <li *ngFor="let description of project.description">
+                            {{description}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-    <div class="work">
-        <h3>
-            Work Experience
-        </h3>
-        <ul style="list-style: none;">
-            <li *ngFor="let work of user.work">
-                <div class="title">
-                    <h6>{{work.title}}</h6>
-                    <h6 id="year">{{work.year}}</h6>
-                </div>
-                <p class="p2">{{work.subtitle}}</p>
-                <ul>
-                    <li *ngFor="let description of work.description">
-                        {{description}}
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <div class="work">
+            <h3>Work Experience</h3>
+            <ul style="list-style: none;">
+                <li *ngFor="let work of user.work">
+                    <div class="title">
+                        <h6 id="title">{{work.title}}</h6>
+                        <h6 id="year">{{work.year}}</h6>
+                    </div>
+                    <p class="p2">{{work.subtitle}}</p>
+                    <ul>
+                        <li *ngFor="let description of work.description">
+                            {{description}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-    <div class="hobbies">
-        <h3>Hobbies</h3>
-        <ul>
-            <li *ngFor="let hobby of user.hobbies">
-                {{hobby}}
-            </li>
-        </ul>
-    </div>
+        <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li *ngFor="let hobby of user.hobbies">
+                    {{hobby}}
+                </li>
+            </ul>
+        </div>
 
-    <div class="references">
-        <h6>References will validate work ethic and results</h6>
+        <div class="references">
+            <h6>References will validate work ethic and results</h6>
+        </div>
     </div>
+    <app-tableofcontents [links]="links"></app-tableofcontents>
 </div>
