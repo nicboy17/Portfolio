@@ -11,6 +11,7 @@ export class WorkComponent implements OnInit {
     galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
     projects = [];
+    selectors = 'h4#title';
 
     constructor(private resume: ResumeService) { }
 

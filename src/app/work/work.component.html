@@ -4,7 +4,7 @@
             <div class="clr-col-10">
                 <div class="card" *ngFor="let project of projects">
                     <div class="card-block">
-                        <h4 class="card-title">{{project.title}}</h4>
+                        <h4 id="title" class="card-title">{{project.title}}</h4>
                         <h4 id="year" class="card-title">{{project.year}}</h4>
                         <h6 style="margin-bottom: 0.75rem;">{{project.subtitle}}</h6>
                         <div class="card-text">
@@ -35,5 +35,5 @@
             </div>
         </div>
     </div>
-    <app-tableofcontents [links]="projects"></app-tableofcontents>
+    <app-tableofcontents [headerSelectors]="selectors"></app-tableofcontents>
 </div>

@@ -1,26 +1,49 @@
 :host {
   width: 25%;
-}
-
-.toc {
+  font-size: 13px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding-left: 25px;
+  display: inline-block;
+  max-height: fit-content;
+}
+
+.toc {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 0.7rem;
   border-style: solid;
   border-width: 0 0 0 1px;
   border-color: dimgrey;
+  float: right;
 
   ul {
-    padding: 0.5rem 0 0.5rem 0.7rem;
-    list-style: none;
+    overflow: auto;
+
+    li {
+      list-style: none;
+    }
 
     .link-head {
       padding: 0.25rem 0 0.25rem 0;
+    }
+
+    li:hover {
+      background: rgb(238, 238, 238);
+    }
+
+    .active {
+      background: rgb(217, 228, 234);
     }
   }
 
   h6, p {
     margin: 0;
+  }
+
+  .level-h6 {
+    margin-left: 0.8rem;
   }
 }
 

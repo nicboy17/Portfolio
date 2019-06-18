@@ -11,6 +11,7 @@ export class EmploymentComponent implements OnInit {
     galleryOptions: NgxGalleryOptions[];
     galleryImages: NgxGalleryImage[];
     employment = [];
+    selectors = 'h4#title';
 
     constructor(private resume: ResumeService) { }
 

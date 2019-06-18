@@ -1,8 +1,10 @@
-
-.sidenav { 
+:host {
+    max-width: 215px;
     min-height: 100%;
-    // margin-right: -4rem;
+}
 
+.sidenav {
+    min-height: 100%;
     span {
         font-weight: bold;
     }

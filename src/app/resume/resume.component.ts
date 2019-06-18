@@ -10,6 +10,7 @@ import { User } from '../services/interfaces';
 export class ResumeComponent implements OnInit {
     user: User;
     links: any;
+    selectors = 'h3, h6#title';
 
     constructor(private resume: ResumeService) { }
 

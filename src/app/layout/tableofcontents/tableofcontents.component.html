@@ -1,10 +1,8 @@
 <div class="toc">
     <ul>
-        <li class="link-head" *ngFor="let link of links">
-            <h6>{{link.title}}</h6>
-            <ul *ngIf="link.data">
-                <li *ngFor="let data of link.data"><p class="p3">{{data.title}}</p></li>
-            </ul>
+        <li class="link-head" *ngFor="let link of links; let i = index" (click)="goToLink(i)"
+            class="level-{{link.type}} link" [class.active]="link.active">
+            <h6>{{link.name}}</h6>
         </li>
     </ul>
 </div>
