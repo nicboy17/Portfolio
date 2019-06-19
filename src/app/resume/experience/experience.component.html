@@ -1,0 +1,17 @@
+<div class="experience">
+    <h3>{{title}}</h3>
+    <ul style="list-style: none;">
+        <li *ngFor="let experience of experiences">
+            <div class="title">
+                <h6 id="title">{{experience.title}}</h6>
+                <h6 id="year">{{experience.year}}</h6>
+            </div>
+            <p class="p2">{{experience.subtitle}}</p>
+            <ul>
+                <li *ngFor="let description of experience.description">
+                    {{description}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

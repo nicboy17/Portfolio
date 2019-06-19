@@ -16,6 +16,6 @@ export interface Experience {
     title: string;
     course?: string;
     year: string;
-    subtitle: string;
+    subtitle?: string;
     description: string[];
 }

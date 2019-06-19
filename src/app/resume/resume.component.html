@@ -10,41 +10,10 @@
             <p>{{user.education}}</p>
         </div>
 
-        <div class="projects">
-            <h3>Projects</h3>
-            <ul style="list-style: none;">
-                <li *ngFor="let project of user.projects">
-                    <div class="title">
-                        <h6 id="title">{{project.title}} - {{project.course}}</h6>
-                        <h6 id="year">{{project.year}}</h6>
-                    </div>
-                    <p class="p2">{{project.subtitle}}</p>
-                    <ul>
-                        <li *ngFor="let description of project.description">
-                            {{description}}
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <app-experience [title]="'Projects'" [experiences]="user.projects"></app-experience>
 
-        <div class="work">
-            <h3>Work Experience</h3>
-            <ul style="list-style: none;">
-                <li *ngFor="let work of user.work">
-                    <div class="title">
-                        <h6 id="title">{{work.title}}</h6>
-                        <h6 id="year">{{work.year}}</h6>
-                    </div>
-                    <p class="p2">{{work.subtitle}}</p>
-                    <ul>
-                        <li *ngFor="let description of work.description">
-                            {{description}}
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <app-experience [title]="'Work Experience'" [experiences]="user.work"></app-experience>
+
 
         <div class="hobbies">
             <h3>Hobbies</h3>

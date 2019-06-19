@@ -1,0 +1,26 @@
+.experience {
+    .title {
+        h6 {
+            width: 75%;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+
+        #year {
+            width: 25%;
+            text-align: right;
+        }
+    }
+
+    ul{
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .p2 {
+        margin: 0;
+    }
+}

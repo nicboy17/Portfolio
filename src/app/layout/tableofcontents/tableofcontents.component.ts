@@ -5,19 +5,10 @@ import {debounceTime, takeUntil, window} from 'rxjs/operators';
 import {fromEvent, Subject} from 'rxjs';
 
 interface Link {
-  /* id of the section*/
   id: string;
-
-  /* header type h3/h4 */
   type: string;
-
-  /* If the anchor is in view of the page */
   active: boolean;
-
-  /* name of the anchor */
   name: string;
-
-  /* top offset px of the anchor */
   top: number;
 }
 
@@ -37,6 +28,8 @@ export class TableofcontentsComponent implements OnInit, OnDestroy {
     constructor(private _element: ElementRef, @Inject(DOCUMENT) private _document: Document) { }
 
     ngOnInit() {
+        this._document.querySelector('.content-area').scrollTop = 0;
+
         Promise.resolve().then(() => {
             this._scrollContainer = this.container ? this._document.querySelectorAll(this.container)[0] : window;
 
@@ -63,10 +56,6 @@ export class TableofcontentsComponent implements OnInit, OnDestroy {
         // A link is considered active if the page is scrolled passed the anchor without also
         // being scrolled passed the next link
         const scrollOffset = this.getScrollOffset();
-        console.log(scrollOffset);
-        console.log(currentLink);
-        console.log(!(nextLink && nextLink.top < scrollOffset));
-        console.log(scrollOffset >= currentLink.top);
         return scrollOffset >= currentLink.top && !(nextLink && nextLink.top < scrollOffset);
     }
 
