@@ -16,6 +16,26 @@
         ],
         "images": [
             {
+                "small": "assets/school/website1.png",
+                "medium": "assets/school/website1.png",
+                "big": "assets/school/website1.png"
+            },
+            {
+                "small": "assets/school/website2.png",
+                "medium": "assets/school/website2.png",
+                "big": "assets/school/website2.png"
+            },
+            {
+                "small": "assets/school/website3.png",
+                "medium": "assets/school/website3.png",
+                "big": "assets/school/website3.png"
+            },
+            {
+                "small": "assets/school/website4.png",
+                "medium": "assets/school/website4.png",
+                "big": "assets/school/website4.png"
+            },
+            {
                 "small": "assets/school/design4.png",
                 "medium": "assets/school/design4.png",
                 "big": "assets/school/design4.png"
