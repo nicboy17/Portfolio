@@ -1,5 +1,53 @@
 [
     {
+        "title": "Dream Homes (Pinterest Clone)",
+        "subtitle": "Hatchways Project",
+        "year": "2019",
+        "overview": [
+            "Create a platform for people to browse and create inspiration boards for their dream homes. Create an easy to use image uploading experience so users can share conten",
+            "Login/sign up, Quiz, Upload content, Filtering and search bar, Create albums and favorite items, Follow/unFollow users",
+            "Technologies: Node, Express, Mongoose, Mongodb, React, Material UI, Redux, AWS s3, Circle Ci & Heroku Integration"
+        ],
+        "responsibilities": [
+            "Majority of backend logic and testing",
+            "Setup Redux and Redux Saga",
+            "AWS for storing user profile pictures and posts",
+            "Setup Circle CI and Heroku Integration CD"
+        ],
+        "images": [
+            {
+                "small": "assets/homes/home1.png",
+                "medium": "assets/homes/home1.png",
+                "big": "assets/homes/home1.png"
+            },
+            {
+                "small": "assets/homes/home2.png",
+                "medium": "assets/homes/home2.png",
+                "big": "assets/homes/home2.png"
+            },
+            {
+                "small": "assets/homes/home3.png",
+                "medium": "assets/homes/home3.png",
+                "big": "assets/homes/home3.png"
+            },
+            {
+                "small": "assets/homes/home4.png",
+                "medium": "assets/homes/home4.png",
+                "big": "assets/homes/home4.png"
+            },
+            {
+                "small": "assets/homes/home5.png",
+                "medium": "assets/homes/home5.png",
+                "big": "assets/homes/home5.png"
+            },
+            {
+                "small": "assets/homes/home6.png",
+                "medium": "assets/homes/home6.png",
+                "big": "assets/homes/home6.png"
+            }
+        ]
+    },
+    {
         "title": "Cap Stone Project",
         "subtitle": "Design 4",
         "year": "2018",

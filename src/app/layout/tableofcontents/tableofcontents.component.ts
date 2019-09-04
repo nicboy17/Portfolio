@@ -53,8 +53,6 @@ export class TableofcontentsComponent implements OnInit, OnDestroy {
     }
 
     private isLinkActive(currentLink: Link, nextLink: Link): boolean {
-        // A link is considered active if the page is scrolled passed the anchor without also
-        // being scrolled passed the next link
         const scrollOffset = this.getScrollOffset();
         return scrollOffset >= currentLink.top && !(nextLink && nextLink.top < scrollOffset);
     }
