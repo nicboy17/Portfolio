@@ -14,17 +14,26 @@
     "profile": "As a highly capable and self-starting professional, I apply strong organization skills while demonstrating initiative and a solid work ethic.",
     "projects": [
         {
+            "title": "Dream Homes (Pinterest Clone)",
+            "course": "",
+            "year": "2019",
+            "subtitle": "Hatchways",
+            "description": [
+                "Worked in a team of 3 to build a web application for users to browse and daydream about homes (interiors, exteriors,front yards, and back yards).",
+                "Setup up CI with circle ci, CD with Heroku, and AWS S3 for file storage",
+                "Technologies included: Node, Express, MongoDB, JWT, Mongoose, React, Redux, Redux-Saga, Material UI."
+            ]
+        },
+        {
             "title": "IoT Real Time System Project",
             "course": "Design 4",
             "year": "2018",
             "subtitle": "University of Guelph",
             "description": [
-                "Demonstrated strong project management skills and team collaboration while using Agile to develop a working prototype (IoT sensory network) for inventory management in assembly manufacturing.",
-                "Implemented 3-layer architecture, splitting problems into three main components, including sensory network, backend (server), and frontend (website).",
-                "Used observable pattern (Rx.js) with Angular.js to create frontend, which kept over architecture event-based.",
-                "Secured Node.js backend service with JSON web tokens and HTTPS.",
-                "Used MongoDB database with Mongoose to store user and sensor data, which provided schemas for structuring data and implement type casting, validation, and query building.",
-                "Created scalable wireless sensor network to communicate with backend in real time to trigger component replenishment, avoid stockouts, optimize inventory levels, and forecast future usage."
+                "Demonstrated strong project management skills and team collaboration while using Agile to develop a 3-layer architecture (sensory network, backend, and web application) for inventory management in assembly manufacturing.",
+                "Objectives included: replenishment notification (avoid stockouts) and inventory level optimization (predict forecast future usage)",
+                "Used observable pattern (Rx.js) with Angular.js to create frontend, which kept the architecture event based.",
+                "Technologies included: Node, Express, MongoDB, JWT, Mongoose, HTTPS, Radio, MQTT, Angular, Websockets."
             ]
         },
         {
