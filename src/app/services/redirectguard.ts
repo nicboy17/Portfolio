@@ -8,7 +8,7 @@ export class RedirectGuard implements CanActivate {
 
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
 
-        window.location.href = route.data['externalUrl'];
+        window.open(route.data['externalUrl']);
         return true;
 
     }
