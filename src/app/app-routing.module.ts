@@ -8,7 +8,7 @@ import { RedirectGuard } from './services/redirectguard';
 import ResumeJSON from './services/resume.json';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/summary', pathMatch: 'full' },
+    { path: '', redirectTo: '/resume', pathMatch: 'full' },
     { path: 'summary', component: SummaryComponent },
     { path: 'resume', component: ResumeComponent },
     { path: 'previous-work', component: WorkComponent },
