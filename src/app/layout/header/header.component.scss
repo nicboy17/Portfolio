@@ -35,8 +35,9 @@ $xlarge: 1920px;
                 margin-left: 1rem;
                 margin-right: 1rem;
 
-                clr-icon, span{
+                clr-icon, .clr-icon, span {
                     color: #F2F2F2;
+                    margin-right: 0.2rem;
                 }
             }
         }

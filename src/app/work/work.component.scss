@@ -11,14 +11,17 @@
     .card-block {
         .card-title {
             width: 75%;
-            margin-top: 0.5rem;
+            margin: 0.5rem 0 0.25rem 0;
             display: inline-block;
-            margin-bottom: 0.25rem;
         }
         
-        #year {
+        #year, .links {
             width: 25%;
             text-align: right;
+
+            span {
+                margin: 0 0.2rem 0 0.2rem;
+            }
         }
 
         h6 {

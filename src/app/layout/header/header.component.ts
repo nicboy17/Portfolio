@@ -12,16 +12,22 @@ import { User } from 'src/app/services/interfaces';
         <div class="contact">
             <ul>
                 <li>
-                    <clr-icon shape="phone-handset"></clr-icon> <span> {{user.phone}}</span>
+                    <clr-icon shape="phone-handset"></clr-icon><span>{{user.phone}}</span>
                 </li>
                 <li>
-                    <a href="mailto:{{user.email}}"><clr-icon shape="envelope"></clr-icon> <span> {{user.email}}</span></a>
+                    <a href="mailto:{{user.email}}"><clr-icon shape="envelope"></clr-icon><span>{{user.email}}</span></a>
                 </li>
                 <li>
-                    <a href="/linkedin"><img class="clr-icon flexible" src="assets/linkedin.png"> <span> linkedin</span></a>
+                    <a href="{{user.linkedin}}" target="_blank">
+                        <img class="clr-icon flexible" src="assets/linkedin.png">
+                        <span>linkedin</span>
+                    </a>
                 </li>
                 <li>
-                    <a href="/github"><img class="clr-icon flexible" src="assets/github.png"><span> {{user.github}}</span></a>
+                    <a href="{{user.github_link}}" target="_blank">
+                        <img class="clr-icon flexible" src="assets/github.png">
+                        <span>{{user.github}}</span>
+                    </a>
                 </li>
             </ul>
         </div>

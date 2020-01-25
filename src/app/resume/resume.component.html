@@ -1,18 +1,20 @@
 <div class="resume">
     <div class="content">
-        <div class="profile">
-            <h3>Profile</h3>
-            <p>{{user.profile}}</p>
+        <div class="skills">
+            <h3>Technical Skills</h3>
+            <p><b>Proficient:</b> {{user.skills.proficient.join(', ')}}</p>
+            <p><b>Knowledge Of:</b> {{user.skills.knowledge.join(', ')}}</p>
         </div>
 
         <div class="education">
             <h3>Education</h3>
-            <p>{{user.education}}</p>
+            <p>{{user.education.school}}</p>
+            <p><b>Relevant Courses:</b> {{user.education.courses.join(', ')}}</p>
         </div>
 
-        <app-experience [title]="'Projects'" [experiences]="user.projects"></app-experience>
-
         <app-experience [title]="'Work Experience'" [experiences]="user.work"></app-experience>
+
+        <app-experience [title]="'Projects'" [experiences]="user.projects"></app-experience>
 
 
         <div class="hobbies">

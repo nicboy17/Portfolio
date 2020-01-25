@@ -5,7 +5,12 @@
                 <div class="card" *ngFor="let project of projects">
                     <div class="card-block">
                         <h4 id="title" class="card-title">{{project.title}}</h4>
-                        <h4 id="year" class="card-title">{{project.year}}</h4>
+                        <h4 id="year" class="card-title" *ngIf="project.year">{{project.year}}</h4>
+                        <div class="card-title links" *ngIf="project.link || project.repo">
+                            <a class="link" href="{{project.repo}}" target="_blank">Github</a>
+                            <span *ngIf="project.link && project.repo">|</span>
+                            <a class="link" *ngIf="project.link" href="{{project.link}}" target="_blank">Live</a>
+                        </div>
                         <h6 style="margin-bottom: 0.75rem;">{{project.subtitle}}</h6>
                         <div class="card-text">
                             <ng-container *ngIf="project.overview">

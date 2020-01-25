@@ -21,8 +21,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <h6>Pictures:</h6>
-                        <ngx-gallery [options]="galleryOptions" [images]="employ.images"></ngx-gallery>
+                        <ng-container *ngIf="employ.images">
+                            <h6>Pictures:</h6>
+                            <ngx-gallery [options]="galleryOptions" [images]="employ.images"></ngx-gallery>
+                        </ng-container>
                     </div>
                 </div>
             </div>

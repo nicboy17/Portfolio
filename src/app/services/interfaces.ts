@@ -5,17 +5,30 @@ export interface User {
     github: string;
     github_link: string;
     linkedin: string;
-    education: string;
+    education: Education;
     hobbies: string[];
-    profile: string;
+    skills: Skills;
     projects: Experience[];
     work: Experience[];
+}
+
+interface Education {
+    school: string;
+    courses: string[];
+}
+
+interface Skills {
+    proficient: string[];
+    knowledge: string[];
 }
 
 export interface Experience {
     title: string;
     course?: string;
-    year: string;
+    year?: string;
+    link?: string;
+    repo?: string;
     subtitle?: string;
+    responsibilities?: {};
     description: string[];
 }

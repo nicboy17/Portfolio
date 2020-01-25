@@ -1,5 +1,20 @@
 [
     {
+        "title": "Software Engineer Intern",
+        "subtitle": "Dot Health, Toronto",
+        "year": "Oct. 19 - Feb",
+        "responsibilities": [
+            "Completing assigned tickets",
+            "Implemented new websocket microservice to replace polling",
+            "Helping new co-op student"
+        ],
+        "learned": [
+            "Sequelize, Jira, Google Cloud, Docker",
+            "Agile Dev flow",
+            "Code Review"
+        ]
+    },
+    {
         "title": "Website Designer (Self Employed)",
         "subtitle": "Woodstock Summer Company, Woodstock",
         "year": "2017",

@@ -5,13 +5,19 @@
     "github": "nicboy17",
     "github_link": "https://github.com/nicboy17",
     "linkedin": "https://linkedin.com/in/nmajor17",
-    "education": "Bachelor of Computer Engineering, University of Guelph (2018).",
+    "education": {
+        "school": "Bachelor of Computer Engineering, University of Guelph (2018).",
+        "courses": ["Engineering and Design", "System Analysis and Design", "Software Development and Integration", "Large Scale Architecture", "Wireless Sensor Networks"]
+    },
     "hobbies": [
         "Hockey",
         "Fishing",
         "Wood Working"
     ],
-    "profile": "As a highly capable and self-starting professional, I apply strong organization skills while demonstrating initiative and a solid work ethic.",
+    "skills": {
+        "proficient": ["C", "Node", "Express", "Angular", "React", "Mongo"],
+        "knowledge": ["Python", "Java", "SQL", "Redux", "RxJs", "NgRx", "Websockets", "Linux", "Docker", "MQTT", "Kafka"]
+    },
     "projects": [
         {
             "title": "Dream Homes (Pinterest Clone)",
@@ -73,6 +79,14 @@
         }
     ],
     "work": [
+        {
+            "title": "Software Engineer Intern",
+            "year": "Oct. 2019 – Feb. 2020",
+            "subtitle": "Dot Health, Toronto",
+            "description": [
+                ""
+            ]
+        },
         {
             "title": "Website Designer (Self Employed)",
             "year": "2017",

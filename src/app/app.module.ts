@@ -10,11 +10,9 @@ import { NgxGalleryModule } from 'ngx-gallery';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './layout/header/header.component';
 import { SidenavComponent } from './layout/sidenav/sidenav.component';
-import { SummaryComponent } from './summary/summary.component';
 import { ResumeComponent } from './resume/resume.component';
 import { WorkComponent } from './work/work.component';
 import { EmploymentComponent } from './employment/employment.component';
-import { RedirectGuard } from './services/redirectguard';
 import { TableofcontentsComponent } from './layout/tableofcontents/tableofcontents.component';
 import { ExperienceComponent } from './resume/experience/experience.component';
 
@@ -23,7 +21,6 @@ import { ExperienceComponent } from './resume/experience/experience.component';
         AppComponent,
         HeaderComponent,
         SidenavComponent,
-        SummaryComponent,
         ResumeComponent,
         WorkComponent,
         EmploymentComponent,
@@ -38,7 +35,6 @@ import { ExperienceComponent } from './resume/experience/experience.component';
         RouterModule,
         BrowserAnimationsModule,
     ],
-    providers: [RedirectGuard],
     bootstrap: [
         AppComponent
     ]
