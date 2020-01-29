@@ -1,11 +1,21 @@
+@import 'mixins';
+
 .resume {
     display: flex;
     justify-content: space-between;
     padding: 0rem 1.5rem 1.5rem;
+
+    @include xs {
+        padding: 0;
+    }
 }
 
 .content {
     width: 70%;
+
+    @include xs {
+        width: 100%;
+    }
 }
 
 p {

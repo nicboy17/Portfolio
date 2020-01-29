@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ClarityModule } from '@clr/angular';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,6 +32,7 @@ import { ExperienceComponent } from './resume/experience/experience.component';
         BrowserModule,
         AppRoutingModule,
         ClarityModule,
+        FlexLayoutModule,
         NgxGalleryModule,
         RouterModule,
         BrowserAnimationsModule,
