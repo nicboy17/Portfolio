@@ -15,9 +15,48 @@
         "Wood Working"
     ],
     "skills": {
-        "proficient": ["C", "Node", "Express", "Angular", "React", "Mongo"],
-        "knowledge": ["Python", "Java", "SQL", "Redux", "RxJs", "NgRx", "Websockets", "Linux", "Docker", "MQTT", "Kafka"]
+        "proficient": ["Node", "Express", "Angular", "React", "Mongo"],
+        "knowledge": ["Python", "SQL", "Redux", "RxJs", "NgRx", "Websockets", "Linux", "Docker", "MQTT", "Kafka"]
     },
+    "work": [
+        {
+            "title": "Software Developer",
+            "year": "March 2020 – Present",
+            "subtitle": "Just Play Sports Solutions, Waterloo",
+            "description": [
+                "Full-stack developer worked on fixing bugs and building out features for various multiplatform apps",
+                "Main technologies worked with included Meteor, Blaze, and Mongo"
+            ]
+        },
+        {
+            "title": "Software Engineer Intern",
+            "year": "Oct. 2019 – Feb. 2020",
+            "subtitle": "Dot Health, Toronto",
+            "description": [
+                "Full-stack developer working on the admin dashboards that manages all of company operations to help retrieve medical records for users.",
+                "Dashboard is built using React, NodeJS, Express, Sequelize, and MySQL."
+            ]
+        },
+        {
+            "title": "Website Designer (Self Employed)",
+            "year": "2017",
+            "subtitle": "Woodstock Summer Company, Woodstock",
+            "description": [
+                "Developed an ecommerce website using WordPress for a hydraulics company, while meeting with owners to discuss work scope, progress, and requirements."
+            ]
+        },
+        {
+            "title": "COOP Position",
+            "year": "2016",
+            "subtitle": "Pencom Canada, Cambridge",
+            "description": [
+                "Worked with quality assurance (QA) department programming a Keyence machine (image dimension measurement system).",
+                "Improved inspection process by designing a Java based program to aggregate parts specifications (drawings and Excel) and Keyence programs. Additionally, implemented a partial search by using part information from the main system for easier location.",
+                "Designed fixtures for scanning in parts and a jig for in-house assembly product using SolidWorks. Measured parts and made sketches.",
+                "Created instructions, wrote manual, and trained warehouse staff on Keyence machine and Java program."
+            ]
+        }
+    ],
     "projects": [
         {
             "title": "Dream Homes (Pinterest Clone)",
@@ -75,36 +114,6 @@
                 "Overcame barriers from tight timelines, debugging, fixing bugs in lengthy programs, and learning Python and MySQL",
                 "Worked with various features, including I/O, C to Python extensions, and server functionality.",
                 "Developed specification reading skills by breaking down and implementing project requirements."
-            ]
-        }
-    ],
-    "work": [
-        {
-            "title": "Software Engineer Intern",
-            "year": "Oct. 2019 – Feb. 2020",
-            "subtitle": "Dot Health, Toronto",
-            "description": [
-                "Full-stack developer working on the admin dashboards that manages all of company operations to help retrieve medical records for users.",
-                "Dashboard is built using React, NodeJS, Express, Sequelize, and MySQL."
-            ]
-        },
-        {
-            "title": "Website Designer (Self Employed)",
-            "year": "2017",
-            "subtitle": "Woodstock Summer Company, Woodstock",
-            "description": [
-                "Developed an ecommerce website using WordPress for a hydraulics company, while meeting with owners to discuss work scope, progress, and requirements."
-            ]
-        },
-        {
-            "title": "COOP Position",
-            "year": "2016",
-            "subtitle": "Pencom Canada, Cambridge",
-            "description": [
-                "Worked with quality assurance (QA) department programming a Keyence machine (image dimension measurement system).",
-                "Improved inspection process by designing a Java based program to aggregate parts specifications (drawings and Excel) and Keyence programs. Additionally, implemented a partial search by using part information from the main system for easier location.",
-                "Designed fixtures for scanning in parts and a jig for in-house assembly product using SolidWorks. Measured parts and made sketches.",
-                "Created instructions, wrote manual, and trained warehouse staff on Keyence machine and Java program."
             ]
         }
     ]

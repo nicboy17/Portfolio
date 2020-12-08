@@ -1,4 +1,4 @@
-<div class="employment">
+<div class="employment {{isMobile() ? 'mobile' : ''}}">
     <div class="content">
         <div class="clr-row clr-justify-content-center">
             <div class="clr-col-10">
@@ -30,5 +30,10 @@
             </div>
         </div>
     </div>
-    <app-tableofcontents [headerSelectors]="selectors"></app-tableofcontents>
+    <app-tableofcontents
+        fxShow.sm="false"
+        fxShow.xs="false"
+        [headerSelectors]="selectors"
+    >
+    </app-tableofcontents>
 </div>

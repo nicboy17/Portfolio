@@ -92,4 +92,8 @@ export class TableofcontentsComponent implements OnInit, OnDestroy {
     ngOnDestroy(): void {
         this._destroyed.next();
     }
+
+    isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
 }

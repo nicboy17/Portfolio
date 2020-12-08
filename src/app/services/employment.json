@@ -1,5 +1,19 @@
 [
     {
+        "title": "Software Developer",
+        "subtitle": "Just Play Sport Solutions, Waterloo",
+        "year": "March. 20 - Present",
+        "responsibilities": [
+            "Completing assigned tickets",
+            "Video integration, implemented video import directly from 3rd party video services (Rest Api)",
+            "Stats, worked with scrapers and 3rd party Rest Apis to retrieve, parse, and format stats for app consumption"
+        ],
+        "learned": [
+            "Jira, Docker, Meteor, Blaze",
+            "Code Review"
+        ]
+    },
+    {
         "title": "Software Engineer Intern",
         "subtitle": "Dot Health, Toronto",
         "year": "Oct. 19 - Feb",

@@ -1,44 +1,63 @@
 .work {
     display: flex;
     justify-content: space-between;
-}
 
-.content {
-    width: 70%;
-}
+    .content {
+        width: 70%;
+    }
 
-.card {
-    .card-block {
-        .card-title {
-            width: 75%;
-            margin: 0.5rem 0 0.25rem 0;
-            display: inline-block;
-        }
-        
-        #year, .links {
-            width: 25%;
-            text-align: right;
+    .card {
+        .card-block {
+            .card-title {
+                width: 75%;
+                margin: 0.5rem 0 0.25rem 0;
+                display: inline-block;
+            }
 
-            span {
-                margin: 0 0.2rem 0 0.2rem;
+            #year, .links {
+                width: 25%;
+                text-align: right;
+
+                span {
+                    margin: 0 0.2rem 0 0.2rem;
+                }
+            }
+
+            h6 {
+                margin: 0;
             }
         }
 
-        h6 {
-            margin: 0;
+        ul{
+            padding: 0.5rem 0 0.5rem 0;
         }
     }
 
-    ul{
-        padding: 0.5rem 0 0.5rem 0;
+    ngx-gallery ::ng-deep .ngx-gallery-arrow {
+        color: black;
     }
-}
 
-ngx-gallery ::ng-deep .ngx-gallery-arrow {
-    color: black;
-}
+    ngx-gallery {
+        display: block;
+        margin: 0 auto;
+    }
 
-ngx-gallery {
-    display: block;
-    margin: 0 auto;
+    &.mobile {
+        .content {
+            width: 100%;
+
+            .clr-row {
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+
+                .clr-col-10 {
+                    width: 100%;
+                    max-width: 100%;
+                    padding: 0;
+                    flex: 1;
+                }
+            }
+        }
+    }
 }

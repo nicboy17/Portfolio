@@ -1,4 +1,4 @@
-<div class="toc">
+<div class="toc" *ngIf="!isMobile()">
     <ul>
         <li class="link-head" *ngFor="let link of links; let i = index" (click)="goToLink(i)"
             class="level-{{link.type}} link" [class.active]="link.active">

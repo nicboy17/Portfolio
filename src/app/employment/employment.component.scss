@@ -1,41 +1,60 @@
 .employment {
     display: flex;
     justify-content: space-between;
-}
 
-.content {
-    width: 70%;
-}
+    .content {
+        width: 70%;
+    }
 
-.card {
-    .card-block {
-        .card-title {
-            width: 75%;
-            margin-top: 0.5rem;
-            display: inline-block;
-            margin-bottom: 0.25rem;
+    .card {
+        .card-block {
+            .card-title {
+                width: 75%;
+                margin-top: 0.5rem;
+                display: inline-block;
+                margin-bottom: 0.25rem;
+            }
+
+            #year {
+                width: 25%;
+                text-align: right;
+            }
+
+            h6 {
+                margin: 0;
+            }
         }
-        
-        #year {
-            width: 25%;
-            text-align: right;
-        }
 
-        h6 {
-            margin: 0;
+        ul{
+            padding: 0.5rem 0 0.5rem 0;
         }
     }
 
-    ul{
-        padding: 0.5rem 0 0.5rem 0;
+    ngx-gallery ::ng-deep .ngx-gallery-arrow {
+        color: black;
     }
-}
 
-ngx-gallery ::ng-deep .ngx-gallery-arrow {
-    color: black;
-}
+    ngx-gallery {
+        display: block;
+        margin: 0 auto;
+    }
 
-ngx-gallery {
-    display: block;
-    margin: 0 auto;
+    &.mobile {
+        .content {
+            width: 100%;
+
+            .clr-row {
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+
+                .clr-col-10 {
+                    width: 100%;
+                    max-width: 100%;
+                    padding: 0;
+                    flex: 1;
+                }
+            }
+        }
+    }
 }
